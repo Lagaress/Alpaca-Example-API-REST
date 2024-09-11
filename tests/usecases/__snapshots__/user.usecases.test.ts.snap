@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User Usecases Create should model it properly 1`] = `
+Object {
+  "createdAt": "1970-03-05T05:02:42Z",
+  "email": "test@test.com",
+  "id": 12412,
+  "nickname": "test",
+  "updatedAt": "1970-03-05T05:02:42Z",
+}
+`;
+
+exports[`User Usecases Get All should model it properly 1`] = `
+Object {
+  "total": 1,
+  "users": Array [
+    Object {
+      "createdAt": "1970-03-05T05:02:42Z",
+      "email": "john.doe@example.com",
+      "id": 12412,
+      "nickname": "John Doe",
+      "updatedAt": "1970-03-05T05:02:42Z",
+    },
+  ],
+}
+`;
+
+exports[`User Usecases Get should model it properly 1`] = `
+Object {
+  "createdAt": "1970-03-05T05:02:42Z",
+  "email": "john.doe@example.com",
+  "id": 12412,
+  "nickname": "John Doe",
+  "updatedAt": "1970-03-05T05:02:42Z",
+}
+`;

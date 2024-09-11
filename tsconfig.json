@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2022",
+    "alwaysStrict": true,
+    "outDir": "./build",
+    "allowJs": false,
+    "sourceMap": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "lib": [ "ES2022" ],
+    "skipLibCheck": true,
+    "noImplicitOverride": true,
+  },
+  "include": [
+    "./**/*.ts",
+    "./**/*.js",
+    "./**/*.hbs",
+    "jest.config.js",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
